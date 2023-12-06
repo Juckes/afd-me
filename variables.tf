@@ -112,7 +112,6 @@ variable "origin_groups" {
   default = {}
 }
 
-
 variable "origins" {
   description = "CDN FrontDoor Origins configurations."
   type = map(object({
